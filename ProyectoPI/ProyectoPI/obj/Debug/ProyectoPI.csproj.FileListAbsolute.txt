@@ -100,3 +100,47 @@ E:\Documentos\proyecto procesamiento de imagenes\ProyectoPI\ProyectoPI\ProyectoP
 E:\Documentos\proyecto procesamiento de imagenes\ProyectoPI\ProyectoPI\ProyectoPI\obj\Debug\ProyectoPI.csproj.CopyComplete
 E:\Documentos\proyecto procesamiento de imagenes\ProyectoPI\ProyectoPI\ProyectoPI\obj\Debug\ProyectoPI.exe
 E:\Documentos\proyecto procesamiento de imagenes\ProyectoPI\ProyectoPI\ProyectoPI\obj\Debug\ProyectoPI.pdb
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\bin\Debug\concrt140.dll
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\bin\Debug\cvextern.dll
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\bin\Debug\msvcp140.dll
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\bin\Debug\opencv_ffmpeg330_64.dll
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\bin\Debug\vcruntime140.dll
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\bin\Debug\cvextern.lib
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\bin\Debug\ProyectoPI.exe.config
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\bin\Debug\ProyectoPI.exe
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\bin\Debug\ProyectoPI.pdb
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\bin\Debug\OpenTK.dll
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\bin\Debug\OpenTK.GLControl.dll
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\bin\Debug\ZedGraph.dll
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\bin\Debug\Emgu.CV.World.xml
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\bin\Debug\OpenTK.xml
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\bin\Debug\OpenTK.GLControl.xml
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\bin\Debug\ZedGraph.xml
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\bin\Debug\de\ZedGraph.resources.dll
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\bin\Debug\es\ZedGraph.resources.dll
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\bin\Debug\fr\ZedGraph.resources.dll
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\bin\Debug\hu\ZedGraph.resources.dll
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\bin\Debug\it\ZedGraph.resources.dll
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\bin\Debug\ja\ZedGraph.resources.dll
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\bin\Debug\pt\ZedGraph.resources.dll
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\bin\Debug\ru\ZedGraph.resources.dll
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\bin\Debug\sk\ZedGraph.resources.dll
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\bin\Debug\sv\ZedGraph.resources.dll
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\bin\Debug\tr\ZedGraph.resources.dll
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\bin\Debug\zh-cn\ZedGraph.resources.dll
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\bin\Debug\zh-tw\ZedGraph.resources.dll
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\bin\Debug\Interop.WMPLib.dll
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\bin\Debug\AxInterop.WMPLib.dll
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\obj\Debug\ProyectoPI.csproj.AssemblyReference.cache
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\obj\Debug\ProyectoPI.csproj.SuggestedBindingRedirects.cache
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\obj\Debug\Interop.WMPLib.dll
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\obj\Debug\AxInterop.WMPLib.dll
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\obj\Debug\ProyectoPI.csproj.ResolveComReference.cache
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\obj\Debug\ProyectoPI.Form1.resources
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\obj\Debug\ProyectoPI.Properties.Resources.resources
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\obj\Debug\ProyectoPI.Video.resources
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\obj\Debug\ProyectoPI.csproj.GenerateResource.cache
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\obj\Debug\ProyectoPI.csproj.CoreCompileInputs.cache
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\obj\Debug\ProyectoPI.csproj.CopyComplete
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\obj\Debug\ProyectoPI.exe
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\obj\Debug\ProyectoPI.pdb

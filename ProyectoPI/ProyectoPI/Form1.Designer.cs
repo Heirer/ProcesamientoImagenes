@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
@@ -38,6 +37,7 @@
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.addPhotoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -46,18 +46,10 @@
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.editToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.resetToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
-            this.btnColorizar = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
-            this.btnMosaico = new System.Windows.Forms.Button();
-            this.btnBinario = new System.Windows.Forms.Button();
-            this.Btn_Grises = new System.Windows.Forms.Button();
             this.Label6 = new System.Windows.Forms.Label();
-            this.btnSepia = new System.Windows.Forms.Button();
-            this.btnGradianteColores = new System.Windows.Forms.Button();
-            this.btnNegativo = new System.Windows.Forms.Button();
             this.Label4 = new System.Windows.Forms.Label();
             this.Label1 = new System.Windows.Forms.Label();
             this.Label3 = new System.Windows.Forms.Label();
@@ -66,7 +58,6 @@
             this.btnAbrir = new System.Windows.Forms.Button();
             this.btnOriginal = new System.Windows.Forms.Button();
             this.openFileDialogImg = new System.Windows.Forms.OpenFileDialog();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.btnSave = new System.Windows.Forms.Button();
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.btnRojo = new System.Windows.Forms.Button();
@@ -87,10 +78,17 @@
             this.trackBar4 = new System.Windows.Forms.TrackBar();
             this.label15 = new System.Windows.Forms.Label();
             this.btn_close = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.btnColorizar = new System.Windows.Forms.Button();
+            this.btnMosaico = new System.Windows.Forms.Button();
+            this.btnBinario = new System.Windows.Forms.Button();
+            this.Btn_Grises = new System.Windows.Forms.Button();
+            this.btnSepia = new System.Windows.Forms.Button();
+            this.btnGradianteColores = new System.Windows.Forms.Button();
+            this.btnNegativo = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chart2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chart3)).BeginInit();
@@ -99,6 +97,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.trackBar3)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -167,16 +167,6 @@
             this.resetToolStripMenuItem.Text = "Reset";
             this.resetToolStripMenuItem.Click += new System.EventHandler(this.resetToolStripMenuItem_Click);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox1.Location = new System.Drawing.Point(105, 70);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(335, 256);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
-            // 
             // panel2
             // 
             this.panel2.AutoScroll = true;
@@ -190,9 +180,9 @@
             this.panel2.Controls.Add(this.Btn_Grises);
             this.panel2.Controls.Add(this.Label6);
             this.panel2.Controls.Add(this.btnSepia);
+            this.panel2.Controls.Add(this.Label4);
             this.panel2.Controls.Add(this.btnGradianteColores);
             this.panel2.Controls.Add(this.btnNegativo);
-            this.panel2.Controls.Add(this.Label4);
             this.panel2.Controls.Add(this.Label1);
             this.panel2.Controls.Add(this.Label3);
             this.panel2.Controls.Add(this.Label2);
@@ -205,121 +195,37 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(479, 7);
+            this.label7.Location = new System.Drawing.Point(747, 6);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(56, 13);
             this.label7.TabIndex = 39;
             this.label7.Text = "Colorizar";
             // 
-            // btnColorizar
-            // 
-            this.btnColorizar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnColorizar.BackgroundImage")));
-            this.btnColorizar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnColorizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnColorizar.Location = new System.Drawing.Point(468, 23);
-            this.btnColorizar.Name = "btnColorizar";
-            this.btnColorizar.Size = new System.Drawing.Size(70, 70);
-            this.btnColorizar.TabIndex = 38;
-            this.btnColorizar.UseVisualStyleBackColor = true;
-            this.btnColorizar.Click += new System.EventHandler(this.btnColorizar_Click);
-            // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(403, 7);
+            this.label5.Location = new System.Drawing.Point(619, 6);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(53, 13);
             this.label5.TabIndex = 37;
             this.label5.Text = "Mosaico";
             // 
-            // btnMosaico
-            // 
-            this.btnMosaico.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnMosaico.BackgroundImage")));
-            this.btnMosaico.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnMosaico.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMosaico.Location = new System.Drawing.Point(392, 23);
-            this.btnMosaico.Name = "btnMosaico";
-            this.btnMosaico.Size = new System.Drawing.Size(70, 70);
-            this.btnMosaico.TabIndex = 36;
-            this.btnMosaico.UseVisualStyleBackColor = true;
-            this.btnMosaico.Click += new System.EventHandler(this.btnMosaico_Click);
-            // 
-            // btnBinario
-            // 
-            this.btnBinario.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnBinario.BackgroundImage")));
-            this.btnBinario.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnBinario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBinario.Location = new System.Drawing.Point(12, 23);
-            this.btnBinario.Name = "btnBinario";
-            this.btnBinario.Size = new System.Drawing.Size(70, 70);
-            this.btnBinario.TabIndex = 35;
-            this.btnBinario.UseVisualStyleBackColor = true;
-            this.btnBinario.Click += new System.EventHandler(this.btnBinario_Click);
-            // 
-            // Btn_Grises
-            // 
-            this.Btn_Grises.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Btn_Grises.BackgroundImage")));
-            this.Btn_Grises.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Btn_Grises.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_Grises.Location = new System.Drawing.Point(316, 23);
-            this.Btn_Grises.Name = "Btn_Grises";
-            this.Btn_Grises.Size = new System.Drawing.Size(70, 70);
-            this.Btn_Grises.TabIndex = 34;
-            this.Btn_Grises.UseVisualStyleBackColor = true;
-            this.Btn_Grises.Click += new System.EventHandler(this.Btn_Grises_Click);
-            // 
             // Label6
             // 
             this.Label6.AutoSize = true;
             this.Label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
-            this.Label6.Location = new System.Drawing.Point(298, 7);
+            this.Label6.Location = new System.Drawing.Point(485, 7);
             this.Label6.Name = "Label6";
             this.Label6.Size = new System.Drawing.Size(99, 13);
             this.Label6.TabIndex = 30;
             this.Label6.Text = "Escala de grises";
             // 
-            // btnSepia
-            // 
-            this.btnSepia.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSepia.BackgroundImage")));
-            this.btnSepia.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnSepia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSepia.Location = new System.Drawing.Point(240, 23);
-            this.btnSepia.Name = "btnSepia";
-            this.btnSepia.Size = new System.Drawing.Size(70, 70);
-            this.btnSepia.TabIndex = 29;
-            this.btnSepia.UseVisualStyleBackColor = true;
-            this.btnSepia.Click += new System.EventHandler(this.btnSepia_Click);
-            // 
-            // btnGradianteColores
-            // 
-            this.btnGradianteColores.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnGradianteColores.BackgroundImage")));
-            this.btnGradianteColores.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnGradianteColores.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnGradianteColores.Location = new System.Drawing.Point(164, 23);
-            this.btnGradianteColores.Name = "btnGradianteColores";
-            this.btnGradianteColores.Size = new System.Drawing.Size(70, 70);
-            this.btnGradianteColores.TabIndex = 28;
-            this.btnGradianteColores.UseVisualStyleBackColor = true;
-            this.btnGradianteColores.Click += new System.EventHandler(this.btnGradianteColores_Click);
-            // 
-            // btnNegativo
-            // 
-            this.btnNegativo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnNegativo.BackgroundImage")));
-            this.btnNegativo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnNegativo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnNegativo.Location = new System.Drawing.Point(88, 23);
-            this.btnNegativo.Name = "btnNegativo";
-            this.btnNegativo.Size = new System.Drawing.Size(70, 70);
-            this.btnNegativo.TabIndex = 27;
-            this.btnNegativo.UseVisualStyleBackColor = true;
-            this.btnNegativo.Click += new System.EventHandler(this.btnNegativo_Click);
-            // 
             // Label4
             // 
             this.Label4.AutoSize = true;
             this.Label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
-            this.Label4.Location = new System.Drawing.Point(253, 7);
+            this.Label4.Location = new System.Drawing.Point(391, 6);
             this.Label4.Name = "Label4";
             this.Label4.Size = new System.Drawing.Size(39, 13);
             this.Label4.TabIndex = 24;
@@ -329,7 +235,7 @@
             // 
             this.Label1.AutoSize = true;
             this.Label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
-            this.Label1.Location = new System.Drawing.Point(27, 7);
+            this.Label1.Location = new System.Drawing.Point(26, 7);
             this.Label1.Name = "Label1";
             this.Label1.Size = new System.Drawing.Size(46, 13);
             this.Label1.TabIndex = 21;
@@ -339,7 +245,7 @@
             // 
             this.Label3.AutoSize = true;
             this.Label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
-            this.Label3.Location = new System.Drawing.Point(161, -2);
+            this.Label3.Location = new System.Drawing.Point(243, -2);
             this.Label3.Name = "Label3";
             this.Label3.Size = new System.Drawing.Size(84, 26);
             this.Label3.TabIndex = 23;
@@ -349,11 +255,11 @@
             // 
             this.Label2.AutoSize = true;
             this.Label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
-            this.Label2.Location = new System.Drawing.Point(101, 7);
+            this.Label2.Location = new System.Drawing.Point(137, 6);
             this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(57, 13);
+            this.Label2.Size = new System.Drawing.Size(64, 13);
             this.Label2.TabIndex = 22;
-            this.Label2.Text = "Negativo";
+            this.Label2.Text = "Tsukuyomi";
             // 
             // btnVideo
             // 
@@ -402,17 +308,6 @@
             // 
             this.openFileDialogImg.FileName = "openFileDialogImg";
             this.openFileDialogImg.Title = "SelecImg";
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox2.Location = new System.Drawing.Point(105, 70);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(333, 256);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 34;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Visible = false;
             // 
             // btnSave
             // 
@@ -663,6 +558,111 @@
             this.btn_close.UseVisualStyleBackColor = false;
             this.btn_close.Click += new System.EventHandler(this.btn_close_Click);
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox2.Location = new System.Drawing.Point(105, 70);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(333, 256);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 34;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Visible = false;
+            // 
+            // btnColorizar
+            // 
+            this.btnColorizar.BackgroundImage = global::ProyectoPI.Properties.Resources.Colorizar;
+            this.btnColorizar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnColorizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnColorizar.Location = new System.Drawing.Point(713, 23);
+            this.btnColorizar.Name = "btnColorizar";
+            this.btnColorizar.Size = new System.Drawing.Size(110, 110);
+            this.btnColorizar.TabIndex = 38;
+            this.btnColorizar.UseVisualStyleBackColor = true;
+            this.btnColorizar.Click += new System.EventHandler(this.btnColorizar_Click);
+            // 
+            // btnMosaico
+            // 
+            this.btnMosaico.BackgroundImage = global::ProyectoPI.Properties.Resources.Pixelados;
+            this.btnMosaico.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnMosaico.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMosaico.Location = new System.Drawing.Point(595, 23);
+            this.btnMosaico.Name = "btnMosaico";
+            this.btnMosaico.Size = new System.Drawing.Size(110, 110);
+            this.btnMosaico.TabIndex = 36;
+            this.btnMosaico.UseVisualStyleBackColor = true;
+            this.btnMosaico.Click += new System.EventHandler(this.btnMosaico_Click);
+            // 
+            // btnBinario
+            // 
+            this.btnBinario.BackgroundImage = global::ProyectoPI.Properties.Resources.Binario;
+            this.btnBinario.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnBinario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBinario.Location = new System.Drawing.Point(3, 23);
+            this.btnBinario.Name = "btnBinario";
+            this.btnBinario.Size = new System.Drawing.Size(110, 110);
+            this.btnBinario.TabIndex = 35;
+            this.btnBinario.UseVisualStyleBackColor = true;
+            this.btnBinario.Click += new System.EventHandler(this.btnBinario_Click);
+            // 
+            // Btn_Grises
+            // 
+            this.Btn_Grises.BackgroundImage = global::ProyectoPI.Properties.Resources.EscalaGrises;
+            this.Btn_Grises.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Btn_Grises.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn_Grises.Location = new System.Drawing.Point(476, 23);
+            this.Btn_Grises.Name = "Btn_Grises";
+            this.Btn_Grises.Size = new System.Drawing.Size(110, 110);
+            this.Btn_Grises.TabIndex = 34;
+            this.Btn_Grises.UseVisualStyleBackColor = true;
+            this.Btn_Grises.Click += new System.EventHandler(this.Btn_Grises_Click);
+            // 
+            // btnSepia
+            // 
+            this.btnSepia.BackgroundImage = global::ProyectoPI.Properties.Resources.Sepia;
+            this.btnSepia.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnSepia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSepia.Location = new System.Drawing.Point(357, 27);
+            this.btnSepia.Name = "btnSepia";
+            this.btnSepia.Size = new System.Drawing.Size(110, 110);
+            this.btnSepia.TabIndex = 29;
+            this.btnSepia.UseVisualStyleBackColor = true;
+            this.btnSepia.Click += new System.EventHandler(this.btnSepia_Click);
+            // 
+            // btnGradianteColores
+            // 
+            this.btnGradianteColores.BackgroundImage = global::ProyectoPI.Properties.Resources.GradienteColores;
+            this.btnGradianteColores.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnGradianteColores.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnGradianteColores.Location = new System.Drawing.Point(238, 23);
+            this.btnGradianteColores.Name = "btnGradianteColores";
+            this.btnGradianteColores.Size = new System.Drawing.Size(110, 110);
+            this.btnGradianteColores.TabIndex = 28;
+            this.btnGradianteColores.UseVisualStyleBackColor = true;
+            this.btnGradianteColores.Click += new System.EventHandler(this.btnGradianteColores_Click);
+            // 
+            // btnNegativo
+            // 
+            this.btnNegativo.BackgroundImage = global::ProyectoPI.Properties.Resources.MundoInverso;
+            this.btnNegativo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnNegativo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNegativo.Location = new System.Drawing.Point(120, 23);
+            this.btnNegativo.Name = "btnNegativo";
+            this.btnNegativo.Size = new System.Drawing.Size(110, 110);
+            this.btnNegativo.TabIndex = 27;
+            this.btnNegativo.UseVisualStyleBackColor = true;
+            this.btnNegativo.Click += new System.EventHandler(this.btnNegativo_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox1.Location = new System.Drawing.Point(105, 70);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(335, 256);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -692,10 +692,8 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chart2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chart3)).EndInit();
@@ -705,6 +703,8 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

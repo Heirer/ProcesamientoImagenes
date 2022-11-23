@@ -63,6 +63,26 @@ namespace ProyectoPI.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Binario {
+            get {
+                object obj = ResourceManager.GetObject("Binario", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Colorizar {
+            get {
+                object obj = ResourceManager.GetObject("Colorizar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap EscalaGrises {
             get {
                 object obj = ResourceManager.GetObject("EscalaGrises", resourceCulture);
@@ -73,9 +93,29 @@ namespace ProyectoPI.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap GradienteColores {
+            get {
+                object obj = ResourceManager.GetObject("GradienteColores", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap MundoInverso {
             get {
                 object obj = ResourceManager.GetObject("MundoInverso", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pixelados {
+            get {
+                object obj = ResourceManager.GetObject("Pixelados", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

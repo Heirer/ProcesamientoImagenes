@@ -146,6 +146,8 @@
     </COMReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Colorizar.JPG" />
+    <None Include="Binario.JPG" />
     <Content Include="concrt140.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -153,6 +155,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <None Include="EscalaGrises.JPG" />
+    <None Include="GradienteColores.JPG" />
     <Content Include="msvcp140.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -161,6 +164,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <None Include="Sepia.JPG" />
+    <None Include="Pixelados.JPG" />
     <Content Include="vcruntime140.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

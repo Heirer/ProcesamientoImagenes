@@ -242,7 +242,7 @@ namespace ProyectoPI
             // 
             // btnColorizar
             // 
-            this.btnColorizar.BackgroundImage = global::ProyectoPI.Properties.Resources.MundoInverso;
+            this.btnColorizar.BackgroundImage = global::ProyectoPI.Properties.Resources.Colorizar;
             this.btnColorizar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnColorizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnColorizar.Location = new System.Drawing.Point(317, 16);
