@@ -32,6 +32,10 @@ namespace ProyectoPI
         //variable para fuente de  video
         private VideoCaptureDevice FuenteDeVideo;
 
+        //variable ara la deteccion 
+        MotionDetector Detector;
+        float NivelDeDeteccion;
+
         private void button1_Click(object sender, EventArgs e)
         {
             //Establecer el dispisitivo seleccionado  como fuente de video
@@ -53,6 +57,8 @@ namespace ProyectoPI
 
         private void DeteccionMovimiento_Load(object sender, EventArgs e)
         {
+            Detector = new MotionDetector(new TwoFramesDifferenceDetector(), new MotionBorderHighlighting());
+            NivelDeDeteccion = 0;
 
             Dispositivos = new FilterInfoCollection(FilterCategory.VideoInputDevice);
 
@@ -62,6 +68,18 @@ namespace ProyectoPI
                 comboBox1.Items.Add(x.Name);            
                 }
             comboBox1.SelectedIndex = 0;
+        }
+
+        private void videoSourcePlayer1_NewFrame(object sender, ref Bitmap image)
+        {
+            NivelDeDeteccion = Detector.ProcessFrame(image);    
+           
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            // textBox1.Text = NivelDeDeteccion.ToString();
+            textBox1.Text = String.Format("{0:00.0000}", NivelDeDeteccion);
         }
     }
 }
