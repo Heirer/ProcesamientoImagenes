@@ -103,13 +103,14 @@
             // 
             // menuStrip1
             // 
-            this.menuStrip1.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.menuStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
             this.editToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(661, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(952, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -169,7 +170,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox1.Location = new System.Drawing.Point(15, 70);
+            this.pictureBox1.Location = new System.Drawing.Point(105, 70);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(335, 256);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -179,7 +180,7 @@
             // panel2
             // 
             this.panel2.AutoScroll = true;
-            this.panel2.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel2.Controls.Add(this.label7);
             this.panel2.Controls.Add(this.btnColorizar);
@@ -197,7 +198,7 @@
             this.panel2.Controls.Add(this.Label2);
             this.panel2.Location = new System.Drawing.Point(15, 332);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(333, 125);
+            this.panel2.Size = new System.Drawing.Size(482, 125);
             this.panel2.TabIndex = 26;
             // 
             // label7
@@ -356,11 +357,11 @@
             // 
             // btnVideo
             // 
-            this.btnVideo.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.btnVideo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.btnVideo.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnVideo.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnVideo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVideo.Location = new System.Drawing.Point(197, 34);
+            this.btnVideo.Location = new System.Drawing.Point(287, 34);
             this.btnVideo.Name = "btnVideo";
             this.btnVideo.Size = new System.Drawing.Size(153, 30);
             this.btnVideo.TabIndex = 31;
@@ -370,11 +371,11 @@
             // 
             // btnAbrir
             // 
-            this.btnAbrir.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.btnAbrir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.btnAbrir.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnAbrir.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnAbrir.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAbrir.Location = new System.Drawing.Point(15, 34);
+            this.btnAbrir.Location = new System.Drawing.Point(105, 34);
             this.btnAbrir.Name = "btnAbrir";
             this.btnAbrir.Size = new System.Drawing.Size(142, 30);
             this.btnAbrir.TabIndex = 30;
@@ -384,12 +385,12 @@
             // 
             // btnOriginal
             // 
-            this.btnOriginal.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.btnOriginal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.btnOriginal.CausesValidation = false;
             this.btnOriginal.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnOriginal.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnOriginal.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOriginal.Location = new System.Drawing.Point(356, 467);
+            this.btnOriginal.Location = new System.Drawing.Point(515, 464);
             this.btnOriginal.Name = "btnOriginal";
             this.btnOriginal.Size = new System.Drawing.Size(151, 30);
             this.btnOriginal.TabIndex = 32;
@@ -405,7 +406,7 @@
             // pictureBox2
             // 
             this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox2.Location = new System.Drawing.Point(15, 70);
+            this.pictureBox2.Location = new System.Drawing.Point(105, 70);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(333, 256);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -415,11 +416,11 @@
             // 
             // btnSave
             // 
-            this.btnSave.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.btnSave.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.btnSave.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSave.Location = new System.Drawing.Point(503, 467);
+            this.btnSave.Location = new System.Drawing.Point(662, 464);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(151, 30);
             this.btnSave.TabIndex = 33;
@@ -429,12 +430,12 @@
             // 
             // chart1
             // 
-            this.chart1.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.chart1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             chartArea1.Name = "ChartArea1";
             this.chart1.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
             this.chart1.Legends.Add(legend1);
-            this.chart1.Location = new System.Drawing.Point(354, 34);
+            this.chart1.Location = new System.Drawing.Point(503, 34);
             this.chart1.Name = "chart1";
             series1.BorderColor = System.Drawing.Color.White;
             series1.ChartArea = "ChartArea1";
@@ -452,7 +453,7 @@
             // 
             // btnRojo
             // 
-            this.btnRojo.Location = new System.Drawing.Point(354, 416);
+            this.btnRojo.Location = new System.Drawing.Point(503, 416);
             this.btnRojo.Name = "btnRojo";
             this.btnRojo.Size = new System.Drawing.Size(75, 23);
             this.btnRojo.TabIndex = 38;
@@ -463,7 +464,7 @@
             // 
             // btnVerde
             // 
-            this.btnVerde.Location = new System.Drawing.Point(472, 416);
+            this.btnVerde.Location = new System.Drawing.Point(621, 416);
             this.btnVerde.Name = "btnVerde";
             this.btnVerde.Size = new System.Drawing.Size(75, 23);
             this.btnVerde.TabIndex = 39;
@@ -473,7 +474,7 @@
             // 
             // btnAzul
             // 
-            this.btnAzul.Location = new System.Drawing.Point(553, 404);
+            this.btnAzul.Location = new System.Drawing.Point(702, 404);
             this.btnAzul.Name = "btnAzul";
             this.btnAzul.Size = new System.Drawing.Size(75, 23);
             this.btnAzul.TabIndex = 40;
@@ -491,12 +492,12 @@
             // 
             // chart2
             // 
-            this.chart2.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.chart2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             chartArea2.Name = "ChartArea1";
             this.chart2.ChartAreas.Add(chartArea2);
             legend2.Name = "Legend1";
             this.chart2.Legends.Add(legend2);
-            this.chart2.Location = new System.Drawing.Point(354, 177);
+            this.chart2.Location = new System.Drawing.Point(503, 177);
             this.chart2.Name = "chart2";
             series2.ChartArea = "ChartArea1";
             series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
@@ -510,12 +511,12 @@
             // 
             // chart3
             // 
-            this.chart3.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.chart3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             chartArea3.Name = "ChartArea1";
             this.chart3.ChartAreas.Add(chartArea3);
             legend3.Name = "Legend1";
             this.chart3.Legends.Add(legend3);
-            this.chart3.Location = new System.Drawing.Point(354, 320);
+            this.chart3.Location = new System.Drawing.Point(503, 320);
             this.chart3.Name = "chart3";
             series3.ChartArea = "ChartArea1";
             series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
@@ -608,7 +609,7 @@
             this.panel1.Controls.Add(this.label9);
             this.panel1.Controls.Add(this.trackBar3);
             this.panel1.Controls.Add(this.label8);
-            this.panel1.Location = new System.Drawing.Point(15, 463);
+            this.panel1.Location = new System.Drawing.Point(105, 464);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(333, 85);
             this.panel1.TabIndex = 49;
@@ -649,12 +650,12 @@
             // 
             // btn_close
             // 
-            this.btn_close.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.btn_close.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.btn_close.CausesValidation = false;
             this.btn_close.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn_close.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_close.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_close.Location = new System.Drawing.Point(356, 503);
+            this.btn_close.Location = new System.Drawing.Point(515, 500);
             this.btn_close.Name = "btn_close";
             this.btn_close.Size = new System.Drawing.Size(298, 42);
             this.btn_close.TabIndex = 50;
@@ -666,8 +667,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.ClientSize = new System.Drawing.Size(661, 548);
+            this.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.ClientSize = new System.Drawing.Size(952, 550);
             this.Controls.Add(this.btn_close);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.chart3);

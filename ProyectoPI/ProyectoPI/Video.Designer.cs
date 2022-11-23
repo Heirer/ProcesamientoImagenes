@@ -29,16 +29,10 @@ namespace ProyectoPI
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Video));
-            this.Btn_Grises = new System.Windows.Forms.Button();
-            this.btnSepia = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
-            this.btnColorizar = new System.Windows.Forms.Button();
             this.Label2 = new System.Windows.Forms.Label();
-            this.btnNegativo = new System.Windows.Forms.Button();
             this.Label6 = new System.Windows.Forms.Label();
             this.Label4 = new System.Windows.Forms.Label();
             this.btnAbrir = new System.Windows.Forms.Button();
@@ -51,60 +45,32 @@ namespace ProyectoPI
             this.label9 = new System.Windows.Forms.Label();
             this.trackBar3 = new System.Windows.Forms.TrackBar();
             this.label8 = new System.Windows.Forms.Label();
+            this.btnColorizar = new System.Windows.Forms.Button();
+            this.btnNegativo = new System.Windows.Forms.Button();
+            this.btnSepia = new System.Windows.Forms.Button();
+            this.Btn_Grises = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // Btn_Grises
-            // 
-            this.Btn_Grises.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Btn_Grises.BackgroundImage")));
-            this.Btn_Grises.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Btn_Grises.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_Grises.Location = new System.Drawing.Point(108, 16);
-            this.Btn_Grises.Name = "Btn_Grises";
-            this.Btn_Grises.Size = new System.Drawing.Size(70, 70);
-            this.Btn_Grises.TabIndex = 35;
-            this.Btn_Grises.UseVisualStyleBackColor = true;
-            this.Btn_Grises.Click += new System.EventHandler(this.Btn_Grises_Click);
-            // 
-            // btnSepia
-            // 
-            this.btnSepia.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSepia.BackgroundImage")));
-            this.btnSepia.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnSepia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSepia.Location = new System.Drawing.Point(3, 16);
-            this.btnSepia.Name = "btnSepia";
-            this.btnSepia.Size = new System.Drawing.Size(70, 70);
-            this.btnSepia.TabIndex = 36;
-            this.btnSepia.UseVisualStyleBackColor = true;
-            this.btnSepia.Click += new System.EventHandler(this.btnSepia_Click);
             // 
             // panel2
             // 
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel2.Controls.Add(this.pictureBox1);
-            this.panel2.Location = new System.Drawing.Point(24, 90);
+            this.panel2.Location = new System.Drawing.Point(168, 89);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(420, 265);
             this.panel2.TabIndex = 2;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(10, 14);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(394, 235);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
-            // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel3.Controls.Add(this.label7);
             this.panel3.Controls.Add(this.btnColorizar);
@@ -114,7 +80,7 @@ namespace ProyectoPI
             this.panel3.Controls.Add(this.Label4);
             this.panel3.Controls.Add(this.btnSepia);
             this.panel3.Controls.Add(this.Btn_Grises);
-            this.panel3.Location = new System.Drawing.Point(36, 361);
+            this.panel3.Location = new System.Drawing.Point(180, 360);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(394, 95);
             this.panel3.TabIndex = 4;
@@ -129,18 +95,6 @@ namespace ProyectoPI
             this.label7.TabIndex = 41;
             this.label7.Text = "Colorizar";
             // 
-            // btnColorizar
-            // 
-            this.btnColorizar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnColorizar.BackgroundImage")));
-            this.btnColorizar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnColorizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnColorizar.Location = new System.Drawing.Point(317, 16);
-            this.btnColorizar.Name = "btnColorizar";
-            this.btnColorizar.Size = new System.Drawing.Size(70, 70);
-            this.btnColorizar.TabIndex = 40;
-            this.btnColorizar.UseVisualStyleBackColor = true;
-            this.btnColorizar.Click += new System.EventHandler(this.btnColorizar_Click);
-            // 
             // Label2
             // 
             this.Label2.AutoSize = true;
@@ -150,18 +104,6 @@ namespace ProyectoPI
             this.Label2.Size = new System.Drawing.Size(57, 13);
             this.Label2.TabIndex = 38;
             this.Label2.Text = "Negativo";
-            // 
-            // btnNegativo
-            // 
-            this.btnNegativo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnNegativo.BackgroundImage")));
-            this.btnNegativo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnNegativo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnNegativo.Location = new System.Drawing.Point(213, 16);
-            this.btnNegativo.Name = "btnNegativo";
-            this.btnNegativo.Size = new System.Drawing.Size(70, 70);
-            this.btnNegativo.TabIndex = 37;
-            this.btnNegativo.UseVisualStyleBackColor = true;
-            this.btnNegativo.Click += new System.EventHandler(this.btnNegativo_Click);
             // 
             // Label6
             // 
@@ -185,11 +127,11 @@ namespace ProyectoPI
             // 
             // btnAbrir
             // 
-            this.btnAbrir.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.btnAbrir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.btnAbrir.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnAbrir.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnAbrir.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAbrir.Location = new System.Drawing.Point(24, 39);
+            this.btnAbrir.Location = new System.Drawing.Point(168, 38);
             this.btnAbrir.Name = "btnAbrir";
             this.btnAbrir.Size = new System.Drawing.Size(183, 45);
             this.btnAbrir.TabIndex = 37;
@@ -199,11 +141,11 @@ namespace ProyectoPI
             // 
             // btn_play
             // 
-            this.btn_play.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.btn_play.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.btn_play.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn_play.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_play.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_play.Location = new System.Drawing.Point(213, 39);
+            this.btn_play.Location = new System.Drawing.Point(357, 38);
             this.btn_play.Name = "btn_play";
             this.btn_play.Size = new System.Drawing.Size(231, 45);
             this.btn_play.TabIndex = 38;
@@ -221,7 +163,7 @@ namespace ProyectoPI
             this.panel1.Controls.Add(this.label9);
             this.panel1.Controls.Add(this.trackBar3);
             this.panel1.Controls.Add(this.label8);
-            this.panel1.Location = new System.Drawing.Point(101, 466);
+            this.panel1.Location = new System.Drawing.Point(245, 465);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(282, 85);
             this.panel1.TabIndex = 50;
@@ -298,12 +240,69 @@ namespace ProyectoPI
             this.label8.TabIndex = 46;
             this.label8.Text = "R";
             // 
+            // btnColorizar
+            // 
+            this.btnColorizar.BackgroundImage = global::ProyectoPI.Properties.Resources.MundoInverso;
+            this.btnColorizar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnColorizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnColorizar.Location = new System.Drawing.Point(317, 16);
+            this.btnColorizar.Name = "btnColorizar";
+            this.btnColorizar.Size = new System.Drawing.Size(70, 70);
+            this.btnColorizar.TabIndex = 40;
+            this.btnColorizar.UseVisualStyleBackColor = true;
+            this.btnColorizar.Click += new System.EventHandler(this.btnColorizar_Click);
+            // 
+            // btnNegativo
+            // 
+            this.btnNegativo.BackgroundImage = global::ProyectoPI.Properties.Resources.MundoInverso;
+            this.btnNegativo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnNegativo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNegativo.Location = new System.Drawing.Point(213, 16);
+            this.btnNegativo.Name = "btnNegativo";
+            this.btnNegativo.Size = new System.Drawing.Size(70, 70);
+            this.btnNegativo.TabIndex = 37;
+            this.btnNegativo.UseVisualStyleBackColor = true;
+            this.btnNegativo.Click += new System.EventHandler(this.btnNegativo_Click);
+            // 
+            // btnSepia
+            // 
+            this.btnSepia.BackgroundImage = global::ProyectoPI.Properties.Resources.Sepia;
+            this.btnSepia.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnSepia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSepia.Location = new System.Drawing.Point(3, 16);
+            this.btnSepia.Name = "btnSepia";
+            this.btnSepia.Size = new System.Drawing.Size(70, 70);
+            this.btnSepia.TabIndex = 36;
+            this.btnSepia.UseVisualStyleBackColor = true;
+            this.btnSepia.Click += new System.EventHandler(this.btnSepia_Click);
+            // 
+            // Btn_Grises
+            // 
+            this.Btn_Grises.BackgroundImage = global::ProyectoPI.Properties.Resources.EscalaGrises;
+            this.Btn_Grises.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Btn_Grises.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn_Grises.Location = new System.Drawing.Point(108, 16);
+            this.Btn_Grises.Name = "Btn_Grises";
+            this.Btn_Grises.Size = new System.Drawing.Size(70, 70);
+            this.Btn_Grises.TabIndex = 35;
+            this.Btn_Grises.UseVisualStyleBackColor = true;
+            this.Btn_Grises.Click += new System.EventHandler(this.Btn_Grises_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(10, 14);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(394, 235);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
+            // 
             // Video
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.ClientSize = new System.Drawing.Size(466, 563);
+            this.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.ClientSize = new System.Drawing.Size(790, 584);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btn_play);
             this.Controls.Add(this.panel3);
@@ -312,7 +311,6 @@ namespace ProyectoPI
             this.Name = "Video";
             this.Text = "Video";
             this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.panel1.ResumeLayout(false);
@@ -320,6 +318,7 @@ namespace ProyectoPI
             ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
