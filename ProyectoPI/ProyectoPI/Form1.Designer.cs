@@ -87,6 +87,8 @@
             this.btnGradianteColores = new System.Windows.Forms.Button();
             this.btnNegativo = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.deteccionMovimientoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.deteccionDeRostrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
@@ -107,7 +109,9 @@
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
-            this.editToolStripMenuItem});
+            this.editToolStripMenuItem,
+            this.deteccionMovimientoToolStripMenuItem,
+            this.deteccionDeRostrosToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(952, 24);
@@ -663,6 +667,20 @@
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
+            // deteccionMovimientoToolStripMenuItem
+            // 
+            this.deteccionMovimientoToolStripMenuItem.Name = "deteccionMovimientoToolStripMenuItem";
+            this.deteccionMovimientoToolStripMenuItem.Size = new System.Drawing.Size(140, 20);
+            this.deteccionMovimientoToolStripMenuItem.Text = "Deteccion Movimiento";
+            this.deteccionMovimientoToolStripMenuItem.Click += new System.EventHandler(this.deteccionMovimientoToolStripMenuItem_Click);
+            // 
+            // deteccionDeRostrosToolStripMenuItem
+            // 
+            this.deteccionDeRostrosToolStripMenuItem.Name = "deteccionDeRostrosToolStripMenuItem";
+            this.deteccionDeRostrosToolStripMenuItem.Size = new System.Drawing.Size(130, 20);
+            this.deteccionDeRostrosToolStripMenuItem.Text = "Deteccion de Rostros";
+            this.deteccionDeRostrosToolStripMenuItem.Click += new System.EventHandler(this.deteccionDeRostrosToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -761,6 +779,8 @@
         private System.Windows.Forms.TrackBar trackBar4;
         private System.Windows.Forms.Label label11;
         internal System.Windows.Forms.Button btn_close;
+        private System.Windows.Forms.ToolStripMenuItem deteccionMovimientoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem deteccionDeRostrosToolStripMenuItem;
     }
 }
 

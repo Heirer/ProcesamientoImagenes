@@ -613,5 +613,15 @@ namespace ProyectoPI
         {
             Application.Exit();
         }
+
+        private void deteccionMovimientoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void deteccionDeRostrosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
