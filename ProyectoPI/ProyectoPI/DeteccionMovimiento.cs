@@ -34,12 +34,21 @@ namespace ProyectoPI
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //Establecer el dispisitivo seleccionado  como fuente de video
+            FuenteDeVideo = new VideoCaptureDevice(Dispositivos[comboBox1.SelectedIndex].MonikerString);
+            //Inicializar el control
+            videoSourcePlayer1.VideoSource = FuenteDeVideo;
+            //Iniciar recepcion de Imagenes
+            videoSourcePlayer1.Start();
+
 
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
 
+            //Detener recepcion de Imagenes
+            videoSourcePlayer1.SignalToStop();
         }
 
         private void DeteccionMovimiento_Load(object sender, EventArgs e)
