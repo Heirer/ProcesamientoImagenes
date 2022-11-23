@@ -38,6 +38,9 @@
     <Reference Include="AForge, Version=2.2.5.0, Culture=neutral, PublicKeyToken=c1db6ff4eaa06aeb, processorArchitecture=MSIL">
       <HintPath>..\packages\AForge.2.2.5\lib\AForge.dll</HintPath>
     </Reference>
+    <Reference Include="AForge.Controls">
+      <HintPath>..\..\..\..\Documentos\PI\ProyectoPI\ProyectoPI\ProyectoPI\AForge.Controls.dll</HintPath>
+    </Reference>
     <Reference Include="AForge.Imaging, Version=2.2.5.0, Culture=neutral, PublicKeyToken=ba8ddea9676ca48b, processorArchitecture=MSIL">
       <HintPath>..\packages\AForge.Imaging.2.2.5\lib\AForge.Imaging.dll</HintPath>
     </Reference>

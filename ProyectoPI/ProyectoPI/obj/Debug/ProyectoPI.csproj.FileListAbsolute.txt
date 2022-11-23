@@ -157,3 +157,4 @@ E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\bin\Debug\AForge.Vision.dll
 E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\bin\Debug\AForge.Imaging.xml
 E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\bin\Debug\AForge.Math.xml
 E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\bin\Debug\AForge.Vision.xml
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\bin\Debug\AForge.Controls.dll
