@@ -616,7 +616,8 @@ namespace ProyectoPI
 
         private void deteccionMovimientoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            DeteccionMovimiento form3 = new DeteccionMovimiento();
+            form3.ShowDialog();
         }
 
         private void deteccionDeRostrosToolStripMenuItem_Click(object sender, EventArgs e)

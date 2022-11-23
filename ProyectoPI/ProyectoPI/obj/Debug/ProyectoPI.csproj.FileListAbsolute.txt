@@ -144,3 +144,16 @@ E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\obj\Debug\ProyectoPI.csproj.
 E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\obj\Debug\ProyectoPI.csproj.CopyComplete
 E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\obj\Debug\ProyectoPI.exe
 E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\obj\Debug\ProyectoPI.pdb
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\obj\Debug\ProyectoPI.DeteccionMovimiento.resources
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\bin\Debug\AForge.dll
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\bin\Debug\AForge.Video.DirectShow.dll
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\bin\Debug\AForge.Video.dll
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\bin\Debug\AForge.xml
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\bin\Debug\AForge.Video.xml
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\bin\Debug\AForge.Video.DirectShow.xml
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\bin\Debug\AForge.Imaging.dll
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\bin\Debug\AForge.Math.dll
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\bin\Debug\AForge.Vision.dll
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\bin\Debug\AForge.Imaging.xml
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\bin\Debug\AForge.Math.xml
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\bin\Debug\AForge.Vision.xml
