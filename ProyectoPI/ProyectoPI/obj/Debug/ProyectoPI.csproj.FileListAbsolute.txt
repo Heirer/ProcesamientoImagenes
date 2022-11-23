@@ -1,0 +1,102 @@
+C:\Users\josel\source\repos\ProyectoPI\ProyectoPI\bin\Debug\ProyectoPI.exe.config
+C:\Users\josel\source\repos\ProyectoPI\ProyectoPI\bin\Debug\ProyectoPI.exe
+C:\Users\josel\source\repos\ProyectoPI\ProyectoPI\bin\Debug\ProyectoPI.pdb
+C:\Users\josel\source\repos\ProyectoPI\ProyectoPI\bin\Debug\Interop.WMPLib.dll
+C:\Users\josel\source\repos\ProyectoPI\ProyectoPI\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\josel\source\repos\ProyectoPI\ProyectoPI\obj\Debug\ProyectoPI.csprojAssemblyReference.cache
+C:\Users\josel\source\repos\ProyectoPI\ProyectoPI\obj\Debug\Interop.WMPLib.dll
+C:\Users\josel\source\repos\ProyectoPI\ProyectoPI\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\josel\source\repos\ProyectoPI\ProyectoPI\obj\Debug\ProyectoPI.csproj.ResolveComReference.cache
+C:\Users\josel\source\repos\ProyectoPI\ProyectoPI\obj\Debug\ProyectoPI.Form1.resources
+C:\Users\josel\source\repos\ProyectoPI\ProyectoPI\obj\Debug\ProyectoPI.Properties.Resources.resources
+C:\Users\josel\source\repos\ProyectoPI\ProyectoPI\obj\Debug\ProyectoPI.csproj.GenerateResource.cache
+C:\Users\josel\source\repos\ProyectoPI\ProyectoPI\obj\Debug\ProyectoPI.csproj.CoreCompileInputs.cache
+C:\Users\josel\source\repos\ProyectoPI\ProyectoPI\obj\Debug\ProyectoPI.exe
+C:\Users\josel\source\repos\ProyectoPI\ProyectoPI\obj\Debug\ProyectoPI.pdb
+C:\Users\josel\Desktop\PPI\SegundoAvance PI\ProyectoPI\ProyectoPI\bin\Debug\concrt140.dll
+C:\Users\josel\Desktop\PPI\SegundoAvance PI\ProyectoPI\ProyectoPI\bin\Debug\cvextern.dll
+C:\Users\josel\Desktop\PPI\SegundoAvance PI\ProyectoPI\ProyectoPI\bin\Debug\msvcp140.dll
+C:\Users\josel\Desktop\PPI\SegundoAvance PI\ProyectoPI\ProyectoPI\bin\Debug\opencv_ffmpeg330_64.dll
+C:\Users\josel\Desktop\PPI\SegundoAvance PI\ProyectoPI\ProyectoPI\bin\Debug\vcruntime140.dll
+C:\Users\josel\Desktop\PPI\SegundoAvance PI\ProyectoPI\ProyectoPI\bin\Debug\cvextern.lib
+C:\Users\josel\Desktop\PPI\SegundoAvance PI\ProyectoPI\ProyectoPI\bin\Debug\ProyectoPI.exe.config
+C:\Users\josel\Desktop\PPI\SegundoAvance PI\ProyectoPI\ProyectoPI\bin\Debug\ProyectoPI.exe
+C:\Users\josel\Desktop\PPI\SegundoAvance PI\ProyectoPI\ProyectoPI\bin\Debug\ProyectoPI.pdb
+C:\Users\josel\Desktop\PPI\SegundoAvance PI\ProyectoPI\ProyectoPI\bin\Debug\Emgu.CV.World.dll
+C:\Users\josel\Desktop\PPI\SegundoAvance PI\ProyectoPI\ProyectoPI\bin\Debug\OpenTK.dll
+C:\Users\josel\Desktop\PPI\SegundoAvance PI\ProyectoPI\ProyectoPI\bin\Debug\OpenTK.GLControl.dll
+C:\Users\josel\Desktop\PPI\SegundoAvance PI\ProyectoPI\ProyectoPI\bin\Debug\ZedGraph.dll
+C:\Users\josel\Desktop\PPI\SegundoAvance PI\ProyectoPI\ProyectoPI\bin\Debug\Emgu.CV.World.xml
+C:\Users\josel\Desktop\PPI\SegundoAvance PI\ProyectoPI\ProyectoPI\bin\Debug\OpenTK.xml
+C:\Users\josel\Desktop\PPI\SegundoAvance PI\ProyectoPI\ProyectoPI\bin\Debug\OpenTK.GLControl.xml
+C:\Users\josel\Desktop\PPI\SegundoAvance PI\ProyectoPI\ProyectoPI\bin\Debug\ZedGraph.xml
+C:\Users\josel\Desktop\PPI\SegundoAvance PI\ProyectoPI\ProyectoPI\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\josel\Desktop\PPI\SegundoAvance PI\ProyectoPI\ProyectoPI\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\josel\Desktop\PPI\SegundoAvance PI\ProyectoPI\ProyectoPI\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\josel\Desktop\PPI\SegundoAvance PI\ProyectoPI\ProyectoPI\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\josel\Desktop\PPI\SegundoAvance PI\ProyectoPI\ProyectoPI\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\josel\Desktop\PPI\SegundoAvance PI\ProyectoPI\ProyectoPI\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\josel\Desktop\PPI\SegundoAvance PI\ProyectoPI\ProyectoPI\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\josel\Desktop\PPI\SegundoAvance PI\ProyectoPI\ProyectoPI\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\josel\Desktop\PPI\SegundoAvance PI\ProyectoPI\ProyectoPI\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\josel\Desktop\PPI\SegundoAvance PI\ProyectoPI\ProyectoPI\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\josel\Desktop\PPI\SegundoAvance PI\ProyectoPI\ProyectoPI\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\josel\Desktop\PPI\SegundoAvance PI\ProyectoPI\ProyectoPI\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\josel\Desktop\PPI\SegundoAvance PI\ProyectoPI\ProyectoPI\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\josel\Desktop\PPI\SegundoAvance PI\ProyectoPI\ProyectoPI\bin\Debug\Interop.WMPLib.dll
+C:\Users\josel\Desktop\PPI\SegundoAvance PI\ProyectoPI\ProyectoPI\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\josel\Desktop\PPI\SegundoAvance PI\ProyectoPI\ProyectoPI\obj\Debug\Interop.WMPLib.dll
+C:\Users\josel\Desktop\PPI\SegundoAvance PI\ProyectoPI\ProyectoPI\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\josel\Desktop\PPI\SegundoAvance PI\ProyectoPI\ProyectoPI\obj\Debug\ProyectoPI.csproj.ResolveComReference.cache
+C:\Users\josel\Desktop\PPI\SegundoAvance PI\ProyectoPI\ProyectoPI\obj\Debug\ProyectoPI.Form1.resources
+C:\Users\josel\Desktop\PPI\SegundoAvance PI\ProyectoPI\ProyectoPI\obj\Debug\ProyectoPI.Properties.Resources.resources
+C:\Users\josel\Desktop\PPI\SegundoAvance PI\ProyectoPI\ProyectoPI\obj\Debug\ProyectoPI.Video.resources
+C:\Users\josel\Desktop\PPI\SegundoAvance PI\ProyectoPI\ProyectoPI\obj\Debug\ProyectoPI.csproj.GenerateResource.cache
+C:\Users\josel\Desktop\PPI\SegundoAvance PI\ProyectoPI\ProyectoPI\obj\Debug\ProyectoPI.csproj.CoreCompileInputs.cache
+C:\Users\josel\Desktop\PPI\SegundoAvance PI\ProyectoPI\ProyectoPI\obj\Debug\ProyectoPI.exe
+C:\Users\josel\Desktop\PPI\SegundoAvance PI\ProyectoPI\ProyectoPI\obj\Debug\ProyectoPI.pdb
+C:\Users\josel\Desktop\PPI\SegundoAvance PI\ProyectoPI\ProyectoPI\obj\Debug\ProyectoPI.csproj.AssemblyReference.cache
+E:\Documentos\proyecto procesamiento de imagenes\ProyectoPI\ProyectoPI\ProyectoPI\bin\Debug\concrt140.dll
+E:\Documentos\proyecto procesamiento de imagenes\ProyectoPI\ProyectoPI\ProyectoPI\bin\Debug\cvextern.dll
+E:\Documentos\proyecto procesamiento de imagenes\ProyectoPI\ProyectoPI\ProyectoPI\bin\Debug\msvcp140.dll
+E:\Documentos\proyecto procesamiento de imagenes\ProyectoPI\ProyectoPI\ProyectoPI\bin\Debug\opencv_ffmpeg330_64.dll
+E:\Documentos\proyecto procesamiento de imagenes\ProyectoPI\ProyectoPI\ProyectoPI\bin\Debug\vcruntime140.dll
+E:\Documentos\proyecto procesamiento de imagenes\ProyectoPI\ProyectoPI\ProyectoPI\bin\Debug\cvextern.lib
+E:\Documentos\proyecto procesamiento de imagenes\ProyectoPI\ProyectoPI\ProyectoPI\bin\Debug\ProyectoPI.exe.config
+E:\Documentos\proyecto procesamiento de imagenes\ProyectoPI\ProyectoPI\ProyectoPI\bin\Debug\ProyectoPI.exe
+E:\Documentos\proyecto procesamiento de imagenes\ProyectoPI\ProyectoPI\ProyectoPI\bin\Debug\ProyectoPI.pdb
+E:\Documentos\proyecto procesamiento de imagenes\ProyectoPI\ProyectoPI\ProyectoPI\bin\Debug\OpenTK.dll
+E:\Documentos\proyecto procesamiento de imagenes\ProyectoPI\ProyectoPI\ProyectoPI\bin\Debug\OpenTK.GLControl.dll
+E:\Documentos\proyecto procesamiento de imagenes\ProyectoPI\ProyectoPI\ProyectoPI\bin\Debug\ZedGraph.dll
+E:\Documentos\proyecto procesamiento de imagenes\ProyectoPI\ProyectoPI\ProyectoPI\bin\Debug\Emgu.CV.World.xml
+E:\Documentos\proyecto procesamiento de imagenes\ProyectoPI\ProyectoPI\ProyectoPI\bin\Debug\OpenTK.xml
+E:\Documentos\proyecto procesamiento de imagenes\ProyectoPI\ProyectoPI\ProyectoPI\bin\Debug\OpenTK.GLControl.xml
+E:\Documentos\proyecto procesamiento de imagenes\ProyectoPI\ProyectoPI\ProyectoPI\bin\Debug\ZedGraph.xml
+E:\Documentos\proyecto procesamiento de imagenes\ProyectoPI\ProyectoPI\ProyectoPI\bin\Debug\de\ZedGraph.resources.dll
+E:\Documentos\proyecto procesamiento de imagenes\ProyectoPI\ProyectoPI\ProyectoPI\bin\Debug\es\ZedGraph.resources.dll
+E:\Documentos\proyecto procesamiento de imagenes\ProyectoPI\ProyectoPI\ProyectoPI\bin\Debug\fr\ZedGraph.resources.dll
+E:\Documentos\proyecto procesamiento de imagenes\ProyectoPI\ProyectoPI\ProyectoPI\bin\Debug\hu\ZedGraph.resources.dll
+E:\Documentos\proyecto procesamiento de imagenes\ProyectoPI\ProyectoPI\ProyectoPI\bin\Debug\it\ZedGraph.resources.dll
+E:\Documentos\proyecto procesamiento de imagenes\ProyectoPI\ProyectoPI\ProyectoPI\bin\Debug\ja\ZedGraph.resources.dll
+E:\Documentos\proyecto procesamiento de imagenes\ProyectoPI\ProyectoPI\ProyectoPI\bin\Debug\pt\ZedGraph.resources.dll
+E:\Documentos\proyecto procesamiento de imagenes\ProyectoPI\ProyectoPI\ProyectoPI\bin\Debug\ru\ZedGraph.resources.dll
+E:\Documentos\proyecto procesamiento de imagenes\ProyectoPI\ProyectoPI\ProyectoPI\bin\Debug\sk\ZedGraph.resources.dll
+E:\Documentos\proyecto procesamiento de imagenes\ProyectoPI\ProyectoPI\ProyectoPI\bin\Debug\sv\ZedGraph.resources.dll
+E:\Documentos\proyecto procesamiento de imagenes\ProyectoPI\ProyectoPI\ProyectoPI\bin\Debug\tr\ZedGraph.resources.dll
+E:\Documentos\proyecto procesamiento de imagenes\ProyectoPI\ProyectoPI\ProyectoPI\bin\Debug\zh-cn\ZedGraph.resources.dll
+E:\Documentos\proyecto procesamiento de imagenes\ProyectoPI\ProyectoPI\ProyectoPI\bin\Debug\zh-tw\ZedGraph.resources.dll
+E:\Documentos\proyecto procesamiento de imagenes\ProyectoPI\ProyectoPI\ProyectoPI\bin\Debug\Interop.WMPLib.dll
+E:\Documentos\proyecto procesamiento de imagenes\ProyectoPI\ProyectoPI\ProyectoPI\bin\Debug\AxInterop.WMPLib.dll
+E:\Documentos\proyecto procesamiento de imagenes\ProyectoPI\ProyectoPI\ProyectoPI\obj\Debug\ProyectoPI.csproj.AssemblyReference.cache
+E:\Documentos\proyecto procesamiento de imagenes\ProyectoPI\ProyectoPI\ProyectoPI\obj\Debug\ProyectoPI.csproj.SuggestedBindingRedirects.cache
+E:\Documentos\proyecto procesamiento de imagenes\ProyectoPI\ProyectoPI\ProyectoPI\obj\Debug\Interop.WMPLib.dll
+E:\Documentos\proyecto procesamiento de imagenes\ProyectoPI\ProyectoPI\ProyectoPI\obj\Debug\AxInterop.WMPLib.dll
+E:\Documentos\proyecto procesamiento de imagenes\ProyectoPI\ProyectoPI\ProyectoPI\obj\Debug\ProyectoPI.csproj.ResolveComReference.cache
+E:\Documentos\proyecto procesamiento de imagenes\ProyectoPI\ProyectoPI\ProyectoPI\obj\Debug\ProyectoPI.Form1.resources
+E:\Documentos\proyecto procesamiento de imagenes\ProyectoPI\ProyectoPI\ProyectoPI\obj\Debug\ProyectoPI.Properties.Resources.resources
+E:\Documentos\proyecto procesamiento de imagenes\ProyectoPI\ProyectoPI\ProyectoPI\obj\Debug\ProyectoPI.Video.resources
+E:\Documentos\proyecto procesamiento de imagenes\ProyectoPI\ProyectoPI\ProyectoPI\obj\Debug\ProyectoPI.csproj.GenerateResource.cache
+E:\Documentos\proyecto procesamiento de imagenes\ProyectoPI\ProyectoPI\ProyectoPI\obj\Debug\ProyectoPI.csproj.CoreCompileInputs.cache
+E:\Documentos\proyecto procesamiento de imagenes\ProyectoPI\ProyectoPI\ProyectoPI\obj\Debug\ProyectoPI.csproj.CopyComplete
+E:\Documentos\proyecto procesamiento de imagenes\ProyectoPI\ProyectoPI\ProyectoPI\obj\Debug\ProyectoPI.exe
+E:\Documentos\proyecto procesamiento de imagenes\ProyectoPI\ProyectoPI\ProyectoPI\obj\Debug\ProyectoPI.pdb
