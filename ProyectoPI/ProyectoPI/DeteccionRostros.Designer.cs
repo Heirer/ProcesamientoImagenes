@@ -43,9 +43,11 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox1.Location = new System.Drawing.Point(75, 48);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(338, 302);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -61,11 +63,11 @@
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Location = new System.Drawing.Point(706, 48);
+            this.button1.Location = new System.Drawing.Point(706, 281);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(149, 41);
             this.button1.TabIndex = 2;
-            this.button1.Text = "Abrir Camara";
+            this.button1.Text = "Detectar Imagenes";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -84,11 +86,11 @@
             // 
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button3.Location = new System.Drawing.Point(706, 230);
+            this.button3.Location = new System.Drawing.Point(706, 48);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(149, 41);
             this.button3.TabIndex = 4;
-            this.button3.Text = "Detectar Imagenes";
+            this.button3.Text = "Abrir Camara";
             this.button3.UseVisualStyleBackColor = false;
             // 
             // label1

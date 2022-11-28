@@ -160,3 +160,4 @@ E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\bin\Debug\AForge.Vision.xml
 E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\bin\Debug\AForge.Controls.dll
 E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\obj\Debug\ProyectoPI.DeteccionRostros.resources
 E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\bin\Debug\FaceRecognition.dll
+E:\Gits\ProcesamientoImagenes\ProyectoPI\ProyectoPI\bin\Debug\haarcascade_frontalface_alt.xml
