@@ -622,7 +622,8 @@ namespace ProyectoPI
 
         private void deteccionDeRostrosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            DeteccionRostros form4 = new DeteccionRostros();
+            form4.ShowDialog();
         }
     }
 }
