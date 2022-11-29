@@ -145,7 +145,7 @@ namespace ProyectoPI
                             {
                                 new float []{-1, 0, 0, 0, 0 },
                                 new float []{0, -1, 0, 0, 0 },
-                                new float []{0, 0, 0, -1, 0 },
+                                new float []{0, 0, -1, 0, 0 },
                                 new float []{0, 0, 0, 1, 0 },
                                 new float []{1, 1, 1, 1, 1 },
                             });
@@ -172,9 +172,9 @@ namespace ProyectoPI
                             {
                                 new float []{r, 0, 0, 0, 0 },
                                 new float []{0, g, 0, 0, 0 },
-                                new float []{0, 0, 0, b, 0 },
+                                new float []{0, 0, b, 0, 0 },
                                 new float []{0, 0, 0, 1, 0 },
-                                new float []{ 0.5f, -0.5f, 0.5f, 0, 1 },
+                                new float []{ 0.5f, 0.5f, 0.5f, 0, 1.0f },
                             });
                         Ia.SetColorMatrix(cmPicture);
                         Graphics gr = Graphics.FromImage(bmpinverted);

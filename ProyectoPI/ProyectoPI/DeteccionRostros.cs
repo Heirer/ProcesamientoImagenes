@@ -96,14 +96,14 @@ namespace ProyectoPI
         {
             Bitmap bitmap = (Bitmap)eventArgs.Frame.Clone(); 
             Image<Bgr, byte> grayImage = new Image<Bgr, byte> (bitmap);
-            Rectangle[] rectangles = cascadeClassifier.DetectMultiScale(grayImage, 1.2, 1);
+            Rectangle[] rectangles = cascadeClassifier.DetectMultiScale(grayImage, 1.2, 1); // aqui se detectan los rostros
             foreach (Rectangle rectangle in rectangles)
             {
                 using (Graphics graphics = Graphics.FromImage(bitmap))
                 {
                     using (Pen pen = new Pen(Color.Red, 1))
                     {
-                        graphics.DrawRectangle (pen, rectangle);
+                        graphics.DrawRectangle (pen, rectangle); //aqui se dibujan los rectangulos
                     }
                 }
             }
