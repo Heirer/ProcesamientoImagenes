@@ -46,11 +46,20 @@
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.editToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.resetToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.deteccionMovimientoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.deteccionDeRostrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
+            this.btnColorizar = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
+            this.btnMosaico = new System.Windows.Forms.Button();
+            this.btnBinario = new System.Windows.Forms.Button();
+            this.Btn_Grises = new System.Windows.Forms.Button();
             this.Label6 = new System.Windows.Forms.Label();
+            this.btnSepia = new System.Windows.Forms.Button();
             this.Label4 = new System.Windows.Forms.Label();
+            this.btnGradianteColores = new System.Windows.Forms.Button();
+            this.btnNegativo = new System.Windows.Forms.Button();
             this.Label1 = new System.Windows.Forms.Label();
             this.Label3 = new System.Windows.Forms.Label();
             this.Label2 = new System.Windows.Forms.Label();
@@ -79,16 +88,7 @@
             this.label15 = new System.Windows.Forms.Label();
             this.btn_close = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.btnColorizar = new System.Windows.Forms.Button();
-            this.btnMosaico = new System.Windows.Forms.Button();
-            this.btnBinario = new System.Windows.Forms.Button();
-            this.Btn_Grises = new System.Windows.Forms.Button();
-            this.btnSepia = new System.Windows.Forms.Button();
-            this.btnGradianteColores = new System.Windows.Forms.Button();
-            this.btnNegativo = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.deteccionMovimientoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.deteccionDeRostrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
@@ -114,7 +114,7 @@
             this.deteccionDeRostrosToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(952, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1234, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -171,6 +171,20 @@
             this.resetToolStripMenuItem.Text = "Reset";
             this.resetToolStripMenuItem.Click += new System.EventHandler(this.resetToolStripMenuItem_Click);
             // 
+            // deteccionMovimientoToolStripMenuItem
+            // 
+            this.deteccionMovimientoToolStripMenuItem.Name = "deteccionMovimientoToolStripMenuItem";
+            this.deteccionMovimientoToolStripMenuItem.Size = new System.Drawing.Size(140, 20);
+            this.deteccionMovimientoToolStripMenuItem.Text = "Deteccion Movimiento";
+            this.deteccionMovimientoToolStripMenuItem.Click += new System.EventHandler(this.deteccionMovimientoToolStripMenuItem_Click);
+            // 
+            // deteccionDeRostrosToolStripMenuItem
+            // 
+            this.deteccionDeRostrosToolStripMenuItem.Name = "deteccionDeRostrosToolStripMenuItem";
+            this.deteccionDeRostrosToolStripMenuItem.Size = new System.Drawing.Size(130, 20);
+            this.deteccionDeRostrosToolStripMenuItem.Text = "Deteccion de Rostros";
+            this.deteccionDeRostrosToolStripMenuItem.Click += new System.EventHandler(this.deteccionDeRostrosToolStripMenuItem_Click);
+            // 
             // panel2
             // 
             this.panel2.AutoScroll = true;
@@ -190,9 +204,9 @@
             this.panel2.Controls.Add(this.Label1);
             this.panel2.Controls.Add(this.Label3);
             this.panel2.Controls.Add(this.Label2);
-            this.panel2.Location = new System.Drawing.Point(15, 332);
+            this.panel2.Location = new System.Drawing.Point(12, 428);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(482, 125);
+            this.panel2.Size = new System.Drawing.Size(852, 146);
             this.panel2.TabIndex = 26;
             // 
             // label7
@@ -205,6 +219,18 @@
             this.label7.TabIndex = 39;
             this.label7.Text = "Colorizar";
             // 
+            // btnColorizar
+            // 
+            this.btnColorizar.BackgroundImage = global::ProyectoPI.Properties.Resources.Colorizar;
+            this.btnColorizar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnColorizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnColorizar.Location = new System.Drawing.Point(713, 23);
+            this.btnColorizar.Name = "btnColorizar";
+            this.btnColorizar.Size = new System.Drawing.Size(110, 110);
+            this.btnColorizar.TabIndex = 38;
+            this.btnColorizar.UseVisualStyleBackColor = true;
+            this.btnColorizar.Click += new System.EventHandler(this.btnColorizar_Click);
+            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -214,6 +240,42 @@
             this.label5.Size = new System.Drawing.Size(53, 13);
             this.label5.TabIndex = 37;
             this.label5.Text = "Mosaico";
+            // 
+            // btnMosaico
+            // 
+            this.btnMosaico.BackgroundImage = global::ProyectoPI.Properties.Resources.Pixelados;
+            this.btnMosaico.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnMosaico.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMosaico.Location = new System.Drawing.Point(595, 23);
+            this.btnMosaico.Name = "btnMosaico";
+            this.btnMosaico.Size = new System.Drawing.Size(110, 110);
+            this.btnMosaico.TabIndex = 36;
+            this.btnMosaico.UseVisualStyleBackColor = true;
+            this.btnMosaico.Click += new System.EventHandler(this.btnMosaico_Click);
+            // 
+            // btnBinario
+            // 
+            this.btnBinario.BackgroundImage = global::ProyectoPI.Properties.Resources.Binario;
+            this.btnBinario.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnBinario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBinario.Location = new System.Drawing.Point(3, 23);
+            this.btnBinario.Name = "btnBinario";
+            this.btnBinario.Size = new System.Drawing.Size(110, 110);
+            this.btnBinario.TabIndex = 35;
+            this.btnBinario.UseVisualStyleBackColor = true;
+            this.btnBinario.Click += new System.EventHandler(this.btnBinario_Click);
+            // 
+            // Btn_Grises
+            // 
+            this.Btn_Grises.BackgroundImage = global::ProyectoPI.Properties.Resources.EscalaGrises;
+            this.Btn_Grises.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Btn_Grises.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn_Grises.Location = new System.Drawing.Point(476, 23);
+            this.Btn_Grises.Name = "Btn_Grises";
+            this.Btn_Grises.Size = new System.Drawing.Size(110, 110);
+            this.Btn_Grises.TabIndex = 34;
+            this.Btn_Grises.UseVisualStyleBackColor = true;
+            this.Btn_Grises.Click += new System.EventHandler(this.Btn_Grises_Click);
             // 
             // Label6
             // 
@@ -225,6 +287,18 @@
             this.Label6.TabIndex = 30;
             this.Label6.Text = "Escala de grises";
             // 
+            // btnSepia
+            // 
+            this.btnSepia.BackgroundImage = global::ProyectoPI.Properties.Resources.Sepia;
+            this.btnSepia.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnSepia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSepia.Location = new System.Drawing.Point(360, 23);
+            this.btnSepia.Name = "btnSepia";
+            this.btnSepia.Size = new System.Drawing.Size(110, 110);
+            this.btnSepia.TabIndex = 29;
+            this.btnSepia.UseVisualStyleBackColor = true;
+            this.btnSepia.Click += new System.EventHandler(this.btnSepia_Click);
+            // 
             // Label4
             // 
             this.Label4.AutoSize = true;
@@ -234,6 +308,30 @@
             this.Label4.Size = new System.Drawing.Size(39, 13);
             this.Label4.TabIndex = 24;
             this.Label4.Text = "Sepia";
+            // 
+            // btnGradianteColores
+            // 
+            this.btnGradianteColores.BackgroundImage = global::ProyectoPI.Properties.Resources.GradienteColores;
+            this.btnGradianteColores.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnGradianteColores.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnGradianteColores.Location = new System.Drawing.Point(238, 23);
+            this.btnGradianteColores.Name = "btnGradianteColores";
+            this.btnGradianteColores.Size = new System.Drawing.Size(110, 110);
+            this.btnGradianteColores.TabIndex = 28;
+            this.btnGradianteColores.UseVisualStyleBackColor = true;
+            this.btnGradianteColores.Click += new System.EventHandler(this.btnGradianteColores_Click);
+            // 
+            // btnNegativo
+            // 
+            this.btnNegativo.BackgroundImage = global::ProyectoPI.Properties.Resources.MundoInverso;
+            this.btnNegativo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnNegativo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNegativo.Location = new System.Drawing.Point(120, 23);
+            this.btnNegativo.Name = "btnNegativo";
+            this.btnNegativo.Size = new System.Drawing.Size(110, 110);
+            this.btnNegativo.TabIndex = 27;
+            this.btnNegativo.UseVisualStyleBackColor = true;
+            this.btnNegativo.Click += new System.EventHandler(this.btnNegativo_Click);
             // 
             // Label1
             // 
@@ -271,7 +369,7 @@
             this.btnVideo.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnVideo.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnVideo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVideo.Location = new System.Drawing.Point(287, 34);
+            this.btnVideo.Location = new System.Drawing.Point(442, 34);
             this.btnVideo.Name = "btnVideo";
             this.btnVideo.Size = new System.Drawing.Size(153, 30);
             this.btnVideo.TabIndex = 31;
@@ -285,11 +383,11 @@
             this.btnAbrir.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnAbrir.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnAbrir.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAbrir.Location = new System.Drawing.Point(105, 34);
+            this.btnAbrir.Location = new System.Drawing.Point(260, 34);
             this.btnAbrir.Name = "btnAbrir";
             this.btnAbrir.Size = new System.Drawing.Size(142, 30);
             this.btnAbrir.TabIndex = 30;
-            this.btnAbrir.Text = "Photo";
+            this.btnAbrir.Text = "Foto";
             this.btnAbrir.UseVisualStyleBackColor = false;
             this.btnAbrir.Click += new System.EventHandler(this.btnAbrir_Click);
             // 
@@ -300,7 +398,7 @@
             this.btnOriginal.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnOriginal.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnOriginal.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOriginal.Location = new System.Drawing.Point(515, 464);
+            this.btnOriginal.Location = new System.Drawing.Point(894, 464);
             this.btnOriginal.Name = "btnOriginal";
             this.btnOriginal.Size = new System.Drawing.Size(151, 30);
             this.btnOriginal.TabIndex = 32;
@@ -319,11 +417,11 @@
             this.btnSave.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSave.Location = new System.Drawing.Point(662, 464);
+            this.btnSave.Location = new System.Drawing.Point(1041, 464);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(151, 30);
             this.btnSave.TabIndex = 33;
-            this.btnSave.Text = "Save";
+            this.btnSave.Text = "Guardar";
             this.btnSave.UseVisualStyleBackColor = false;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click_1);
             // 
@@ -334,7 +432,7 @@
             this.chart1.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
             this.chart1.Legends.Add(legend1);
-            this.chart1.Location = new System.Drawing.Point(503, 34);
+            this.chart1.Location = new System.Drawing.Point(882, 34);
             this.chart1.Name = "chart1";
             series1.BorderColor = System.Drawing.Color.White;
             series1.ChartArea = "ChartArea1";
@@ -352,7 +450,7 @@
             // 
             // btnRojo
             // 
-            this.btnRojo.Location = new System.Drawing.Point(503, 416);
+            this.btnRojo.Location = new System.Drawing.Point(882, 416);
             this.btnRojo.Name = "btnRojo";
             this.btnRojo.Size = new System.Drawing.Size(75, 23);
             this.btnRojo.TabIndex = 38;
@@ -363,7 +461,7 @@
             // 
             // btnVerde
             // 
-            this.btnVerde.Location = new System.Drawing.Point(621, 416);
+            this.btnVerde.Location = new System.Drawing.Point(1000, 416);
             this.btnVerde.Name = "btnVerde";
             this.btnVerde.Size = new System.Drawing.Size(75, 23);
             this.btnVerde.TabIndex = 39;
@@ -373,7 +471,7 @@
             // 
             // btnAzul
             // 
-            this.btnAzul.Location = new System.Drawing.Point(702, 404);
+            this.btnAzul.Location = new System.Drawing.Point(1081, 404);
             this.btnAzul.Name = "btnAzul";
             this.btnAzul.Size = new System.Drawing.Size(75, 23);
             this.btnAzul.TabIndex = 40;
@@ -396,7 +494,7 @@
             this.chart2.ChartAreas.Add(chartArea2);
             legend2.Name = "Legend1";
             this.chart2.Legends.Add(legend2);
-            this.chart2.Location = new System.Drawing.Point(503, 177);
+            this.chart2.Location = new System.Drawing.Point(882, 177);
             this.chart2.Name = "chart2";
             series2.ChartArea = "ChartArea1";
             series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
@@ -415,7 +513,7 @@
             this.chart3.ChartAreas.Add(chartArea3);
             legend3.Name = "Legend1";
             this.chart3.Legends.Add(legend3);
-            this.chart3.Location = new System.Drawing.Point(503, 320);
+            this.chart3.Location = new System.Drawing.Point(882, 320);
             this.chart3.Name = "chart3";
             series3.ChartArea = "ChartArea1";
             series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
@@ -508,7 +606,7 @@
             this.panel1.Controls.Add(this.label9);
             this.panel1.Controls.Add(this.trackBar3);
             this.panel1.Controls.Add(this.label8);
-            this.panel1.Location = new System.Drawing.Point(105, 464);
+            this.panel1.Location = new System.Drawing.Point(245, 580);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(333, 85);
             this.panel1.TabIndex = 49;
@@ -554,139 +652,41 @@
             this.btn_close.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn_close.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_close.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_close.Location = new System.Drawing.Point(515, 500);
+            this.btn_close.Location = new System.Drawing.Point(894, 500);
             this.btn_close.Name = "btn_close";
             this.btn_close.Size = new System.Drawing.Size(298, 42);
             this.btn_close.TabIndex = 50;
-            this.btn_close.Text = "Close";
+            this.btn_close.Text = "Cerrar";
             this.btn_close.UseVisualStyleBackColor = false;
             this.btn_close.Click += new System.EventHandler(this.btn_close_Click);
             // 
             // pictureBox2
             // 
             this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox2.Location = new System.Drawing.Point(105, 70);
+            this.pictureBox2.Location = new System.Drawing.Point(31, 70);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(333, 256);
+            this.pictureBox2.Size = new System.Drawing.Size(806, 334);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 34;
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Visible = false;
             // 
-            // btnColorizar
-            // 
-            this.btnColorizar.BackgroundImage = global::ProyectoPI.Properties.Resources.Colorizar;
-            this.btnColorizar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnColorizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnColorizar.Location = new System.Drawing.Point(713, 23);
-            this.btnColorizar.Name = "btnColorizar";
-            this.btnColorizar.Size = new System.Drawing.Size(110, 110);
-            this.btnColorizar.TabIndex = 38;
-            this.btnColorizar.UseVisualStyleBackColor = true;
-            this.btnColorizar.Click += new System.EventHandler(this.btnColorizar_Click);
-            // 
-            // btnMosaico
-            // 
-            this.btnMosaico.BackgroundImage = global::ProyectoPI.Properties.Resources.Pixelados;
-            this.btnMosaico.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnMosaico.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMosaico.Location = new System.Drawing.Point(595, 23);
-            this.btnMosaico.Name = "btnMosaico";
-            this.btnMosaico.Size = new System.Drawing.Size(110, 110);
-            this.btnMosaico.TabIndex = 36;
-            this.btnMosaico.UseVisualStyleBackColor = true;
-            this.btnMosaico.Click += new System.EventHandler(this.btnMosaico_Click);
-            // 
-            // btnBinario
-            // 
-            this.btnBinario.BackgroundImage = global::ProyectoPI.Properties.Resources.Binario;
-            this.btnBinario.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnBinario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBinario.Location = new System.Drawing.Point(3, 23);
-            this.btnBinario.Name = "btnBinario";
-            this.btnBinario.Size = new System.Drawing.Size(110, 110);
-            this.btnBinario.TabIndex = 35;
-            this.btnBinario.UseVisualStyleBackColor = true;
-            this.btnBinario.Click += new System.EventHandler(this.btnBinario_Click);
-            // 
-            // Btn_Grises
-            // 
-            this.Btn_Grises.BackgroundImage = global::ProyectoPI.Properties.Resources.EscalaGrises;
-            this.Btn_Grises.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Btn_Grises.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_Grises.Location = new System.Drawing.Point(476, 23);
-            this.Btn_Grises.Name = "Btn_Grises";
-            this.Btn_Grises.Size = new System.Drawing.Size(110, 110);
-            this.Btn_Grises.TabIndex = 34;
-            this.Btn_Grises.UseVisualStyleBackColor = true;
-            this.Btn_Grises.Click += new System.EventHandler(this.Btn_Grises_Click);
-            // 
-            // btnSepia
-            // 
-            this.btnSepia.BackgroundImage = global::ProyectoPI.Properties.Resources.Sepia;
-            this.btnSepia.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnSepia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSepia.Location = new System.Drawing.Point(357, 27);
-            this.btnSepia.Name = "btnSepia";
-            this.btnSepia.Size = new System.Drawing.Size(110, 110);
-            this.btnSepia.TabIndex = 29;
-            this.btnSepia.UseVisualStyleBackColor = true;
-            this.btnSepia.Click += new System.EventHandler(this.btnSepia_Click);
-            // 
-            // btnGradianteColores
-            // 
-            this.btnGradianteColores.BackgroundImage = global::ProyectoPI.Properties.Resources.GradienteColores;
-            this.btnGradianteColores.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnGradianteColores.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnGradianteColores.Location = new System.Drawing.Point(238, 23);
-            this.btnGradianteColores.Name = "btnGradianteColores";
-            this.btnGradianteColores.Size = new System.Drawing.Size(110, 110);
-            this.btnGradianteColores.TabIndex = 28;
-            this.btnGradianteColores.UseVisualStyleBackColor = true;
-            this.btnGradianteColores.Click += new System.EventHandler(this.btnGradianteColores_Click);
-            // 
-            // btnNegativo
-            // 
-            this.btnNegativo.BackgroundImage = global::ProyectoPI.Properties.Resources.MundoInverso;
-            this.btnNegativo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnNegativo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnNegativo.Location = new System.Drawing.Point(120, 23);
-            this.btnNegativo.Name = "btnNegativo";
-            this.btnNegativo.Size = new System.Drawing.Size(110, 110);
-            this.btnNegativo.TabIndex = 27;
-            this.btnNegativo.UseVisualStyleBackColor = true;
-            this.btnNegativo.Click += new System.EventHandler(this.btnNegativo_Click);
-            // 
             // pictureBox1
             // 
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox1.Location = new System.Drawing.Point(105, 70);
+            this.pictureBox1.Location = new System.Drawing.Point(31, 70);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(335, 256);
+            this.pictureBox1.Size = new System.Drawing.Size(808, 334);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
-            // 
-            // deteccionMovimientoToolStripMenuItem
-            // 
-            this.deteccionMovimientoToolStripMenuItem.Name = "deteccionMovimientoToolStripMenuItem";
-            this.deteccionMovimientoToolStripMenuItem.Size = new System.Drawing.Size(140, 20);
-            this.deteccionMovimientoToolStripMenuItem.Text = "Deteccion Movimiento";
-            this.deteccionMovimientoToolStripMenuItem.Click += new System.EventHandler(this.deteccionMovimientoToolStripMenuItem_Click);
-            // 
-            // deteccionDeRostrosToolStripMenuItem
-            // 
-            this.deteccionDeRostrosToolStripMenuItem.Name = "deteccionDeRostrosToolStripMenuItem";
-            this.deteccionDeRostrosToolStripMenuItem.Size = new System.Drawing.Size(130, 20);
-            this.deteccionDeRostrosToolStripMenuItem.Text = "Deteccion de Rostros";
-            this.deteccionDeRostrosToolStripMenuItem.Click += new System.EventHandler(this.deteccionDeRostrosToolStripMenuItem_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.ClientSize = new System.Drawing.Size(952, 550);
+            this.ClientSize = new System.Drawing.Size(1234, 705);
             this.Controls.Add(this.btn_close);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.chart3);
@@ -706,7 +706,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Filtros";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

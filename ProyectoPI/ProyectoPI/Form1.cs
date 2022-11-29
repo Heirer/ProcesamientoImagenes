@@ -216,7 +216,7 @@ namespace ProyectoPI
                 }
             }
         }
-        //NEGATIVO
+        //Tsukuyomi  //Mundo Inverso
         private void btnNegativo_Click(object sender, EventArgs e)
         {
             if (pictureBox1.Image == null)
@@ -227,7 +227,7 @@ namespace ProyectoPI
             else
             {
                 Bitmap bmp = new Bitmap((Bitmap)pictureBox1.Image);
-                Negativa(bmp);
+                Tsukuyomi(bmp);
                 pictureBox1.Image = bmp;
                 histoAcumulado = histogramaAcumulado(bmp);
                 btnRojo_Click(sender, e);
@@ -236,7 +236,7 @@ namespace ProyectoPI
             }
         }
 
-        public void Negativa(Bitmap bmp)
+        public void Tsukuyomi(Bitmap bmp)
         {
             for (int i = 0; i < bmp.Width; i++)
             {
@@ -258,7 +258,7 @@ namespace ProyectoPI
             }
         }
 
-        //MOSAICO
+        //MOSAICO  o PIXELADO
         private void btnMosaico_Click(object sender, EventArgs e)
         {
 
